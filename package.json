@@ -4,6 +4,8 @@
   "description": "WordPress theme template",
   "main": "index.js",
   "scripts": {
+    "dev": "npx webpack --mode=development --watch",
+    "build": "rm -rf dist && npx webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
