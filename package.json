@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-theme-template",
+  "version": "1.0.0",
+  "description": "WordPress theme template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/negi524/wordpress-theme-template.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "negi524",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/negi524/wordpress-theme-template/issues"
+  },
+  "homepage": "https://github.com/negi524/wordpress-theme-template#readme"
+}
