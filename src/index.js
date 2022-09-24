@@ -6,3 +6,4 @@ import "bootstrap";
 import './style.scss';
 import './header.scss'
 import './footer.scss'
+import './sidebar.scss'
