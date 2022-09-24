@@ -1,3 +1,3 @@
 <div id="sidebar" class="sidebar">
-  <p>サイドバーです</p>
+  <h3>サイドバー</h3>
 </div>
