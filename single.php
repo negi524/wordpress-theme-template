@@ -5,6 +5,7 @@
       <main class="col-sm-9">
         <?php while(have_posts()): the_post(); ?>
           <h2><?php the_title(); ?></h2>
+          <p><?php the_date(); ?></p>
           <div>
             <?php the_content(); ?>
           </div>
