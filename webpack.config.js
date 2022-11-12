@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
@@ -6,8 +6,8 @@ module.exports = {
   entry: "./src/index.js",
   devtool: "source-map",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'main.bundle.js'
+    path: path.resolve(__dirname, "dist"),
+    filename: "main.bundle.js",
   },
   module: {
     rules: [
