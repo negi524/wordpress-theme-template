@@ -24,3 +24,5 @@ node_modules/
 
 # webpack compiled directory
 dist/
+
+.vscode/

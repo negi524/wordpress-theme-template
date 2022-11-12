@@ -1,5 +1,6 @@
 # wordpress-theme-template
-ここからカスタマイズを行う前提の、WordPressテーマテンプレート
+
+ここからカスタマイズを行う前提の、WordPress テーマテンプレート
 
 ## 開発方法
 
@@ -15,7 +16,15 @@ npm install
 npm run dev
 ```
 
-### 3. 本番環境用のファイルをビルド
+### 3. コードフォーマット
+
+prettier によるコードフォーマットを適用する。
+
+```bash
+npm run format
+```
+
+### 4. 本番環境用のファイルをビルド
 
 ```bash
 npm run build
