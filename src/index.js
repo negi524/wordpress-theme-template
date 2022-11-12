@@ -7,3 +7,14 @@ import './style.scss';
 import './header.scss'
 import './footer.scss'
 import './sidebar.scss'
+
+// highlight.jsの機能を読み込む
+import hljs from 'highlight.js'
+import javascript from 'highlight.js/lib/languages/javascript';
+hljs.registerLanguage('javascript', javascript);
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  document.querySelectorAll('pre code').forEach((el) => {
+    hljs.highlightElement(el);
+  });
+});
