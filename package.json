@@ -23,16 +23,18 @@
   },
   "homepage": "https://github.com/negi524/wordpress-theme-template#readme",
   "devDependencies": {
+    "css-loader": "^6.7.2",
     "prettier": "2.7.1",
     "sass": "^1.55.0",
-    "sass-loader": "^13.0.2",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.1",
-    "css-loader": "^6.7.1",
+    "highlight.js": "^11.6.0",
     "mini-css-extract-plugin": "^2.6.1"
   }
 }

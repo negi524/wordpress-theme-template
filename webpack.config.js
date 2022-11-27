@@ -12,6 +12,7 @@ module.exports = {
   module: {
     rules: [
       {
+        // SCSSファイルを対象としたルール
         test: /\.s[ac]ss$/i,
         use: [
           // コンパイルの際にjsとcssファイルを分ける
@@ -20,6 +21,19 @@ module.exports = {
           "css-loader",
           // Compiles Sass to CSS
           "sass-loader",
+        ],
+      },
+      {
+        // CSSファイルを対象としたルール
+        test: /\.css$/i,
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              sourceMap: true,
+            },
+          },
         ],
       },
     ],
