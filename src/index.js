@@ -11,6 +11,9 @@ import "./sidebar.scss";
 // highlight.jsの機能を読み込む
 import hljs from "highlight.js";
 import javascript from "highlight.js/lib/languages/javascript";
+import python from "highlight.js/lib/languages/python";
+import "highlight.js/styles/github.css";
+
 hljs.registerLanguage("javascript", javascript);
 
 document.addEventListener("DOMContentLoaded", (event) => {
