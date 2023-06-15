@@ -5,8 +5,12 @@
       <main class="col-sm-8">
         <h2>投稿一覧</h2>
         <?php while (have_posts()) : the_post(); ?>
-          <div>
-            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+          <div class="card">
+            <a class="card-body" href="<?php the_permalink(); ?>">
+              <h3 class="card-title"><?php the_title(); ?></h3>
+              <p><?php the_time(get_option('date_format')); ?></p>
+              <p class="card-text"><?php the_excerpt(); ?></p>
+            </a>
           </div>
         <?php endwhile; ?>
       </main>
