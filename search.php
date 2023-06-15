@@ -5,7 +5,7 @@
   <?php get_header(); ?>
 </head>
 <body>
-  <?php get_template_part( 'components/header') ?>
+  <?php get_template_part( 'components/header'); ?>
   <main>
     <p>検索結果ページです</p>
   </main>
