@@ -5,7 +5,7 @@
   <?php get_header(); ?>
 </head>
 <body>
-  <?php get_template_part( 'components/header') ?>
+  <?php get_template_part('components/header'); ?>
   <div class="container">
     <div class="row">
       <main class="col-sm-9">
