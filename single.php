@@ -1,5 +1,11 @@
 <!-- 投稿ページ -->
-<?php get_header(); ?>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <?php get_header(); ?>
+</head>
+<body>
+  <?php get_template_part('components/header'); ?>
   <div class="container">
     <div class="row">
       <main class="col-sm-9">
@@ -16,4 +22,6 @@
       </div>
     </div>
   </div>
-<?php get_footer(); ?>
+  <?php get_footer(); ?>
+</body>
+</html>
