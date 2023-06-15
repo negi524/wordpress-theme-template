@@ -4,5 +4,5 @@
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/normalize.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/dist/style.css">
 <!-- <script src="dist/main.js"></script> -->
-<title>タイトル</title>
+<title><?php the_title(); ?></title>
 <?php wp_head(); ?>
