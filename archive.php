@@ -1,10 +1,11 @@
+<!-- アーカイブページ -->
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="<?php language_attributes(); ?>">
 <head>
   <?php get_header(); ?>
 </head>
 <body>
-  <?php get_template_part( 'components/header'); ?>
+  <?php get_template_part('components/header'); ?>
   <main>
     <?php if(is_category()): ?>
       <h2>Category</h2>

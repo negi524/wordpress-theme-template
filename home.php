@@ -1,6 +1,6 @@
 <!-- フロントページ -->
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="<?php language_attributes(); ?>">
 <head>
   <?php get_header(); ?>
 </head>
