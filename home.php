@@ -5,7 +5,7 @@
   <?php get_header(); ?>
 </head>
 <body>
-  <?php get_template_part( 'components/header') ?>
+  <?php get_template_part('components/header') ?>
   <div class="container">
     <div class="row">
       <main class="col-sm-8">
@@ -20,24 +20,7 @@
           </div>
         <?php endwhile; ?>
 
-        <?php
-        // 前ページへのリンク
-        $prevLink = get_previous_posts_link();
-        $prevLink = str_replace('<a', '<a class="page-link"', $prevLink);
-        // 次ページのリンク
-        $nextLink = get_next_posts_link();
-        $nextLink = str_replace('<a', '<a class="page-link"', $nextLink);
-        ?>
-        <nav aria-label="Page navigation">
-          <ul class="pagination">
-            <?php if ($prevLink): ?>
-              <li class="page-item"><?php echo $prevLink ?></li>
-            <?php endif; ?>
-            <?php if ($nextLink): ?>
-              <li class="page-item"><?php echo $nextLink ?></li>
-            <?php endif; ?>
-          </ul>
-        </nav>
+        <?php get_template_part('components/pagination'); ?>
       </main>
       <div class="col-sm-4">
         <?php get_sidebar(); ?>
