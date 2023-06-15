@@ -29,3 +29,7 @@ npm run format
 ```bash
 npm run build
 ```
+
+## 開発用おすすめプラグイン
+
+* Query Monitor
