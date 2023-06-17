@@ -8,7 +8,7 @@
 
 <body>
   <?php get_template_part('components/header'); ?>
-  <main>
+  <main class="container">
     <?php if(is_category()): ?>
     <h2>Category</h2>
     <?php elseif(is_author()): ?>

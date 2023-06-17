@@ -8,7 +8,7 @@
 
 <body>
   <?php get_template_part('components/header'); ?>
-  <main>
+  <main class="container">
     <p>固定ページです</p>
   </main>
   <?php get_footer(); ?>
