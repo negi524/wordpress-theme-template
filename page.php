@@ -8,9 +8,11 @@
 
 <body>
   <?php get_template_part('components/header'); ?>
-  <main class="container">
-    <p>固定ページです</p>
-  </main>
+  <div class="container">
+    <main class="container">
+      <p>固定ページです</p>
+    </main>
+  </div>
   <?php get_footer(); ?>
 </body>
 
