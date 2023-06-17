@@ -1,14 +1,17 @@
 <!-- 検索結果 -->
 <!DOCTYPE html>
 <html lang="<?php language_attributes(); ?>">
+
 <head>
   <?php get_header(); ?>
 </head>
+
 <body>
   <?php get_template_part('components/header'); ?>
-  <main>
+  <main class="container">
     <p>検索結果ページです</p>
   </main>
   <?php get_footer(); ?>
 </body>
+
 </html>
